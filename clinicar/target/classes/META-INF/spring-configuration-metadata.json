@@ -1,0 +1,523 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "clinicar.web.config.DBConfig",
+      "name": "clinicar.datasource",
+      "sourceMethod": "clinicarDataSource()",
+      "type": "org.apache.tomcat.jdbc.pool.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.abandon-when-percentage-full",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.abandon-when-percentage-full",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.access-to-underlying-connection-allowed",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.alternate-username-allowed",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.alternate-username-allowed",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.commit-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.commit-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.connection-properties",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.connection-properties",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.data-source",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.data-source",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.db-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.db-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.default-auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.default-auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.default-catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.default-catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.default-read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.default-read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.default-transaction-isolation",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.fair-queue",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.fair-queue",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.ignore-exception-on-pre-load",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.ignore-exception-on-pre-load",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.init-s-q-l",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.init-s-q-l",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.initial-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.initial-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.jdbc-interceptors",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.jdbc-interceptors",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.jmx-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.jmx-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.log-abandoned",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.log-abandoned",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.log-validation-errors",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.log-validation-errors",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.max-active",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.max-active",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.max-age",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.max-age",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.max-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.max-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.max-wait",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.max-wait",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.min-evictable-idle-time-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.num-tests-per-eviction-run",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.propagate-interrupt-state",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.propagate-interrupt-state",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.remove-abandoned",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.remove-abandoned",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.remove-abandoned-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.rollback-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.rollback-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.suspect-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.suspect-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.test-on-connect",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.test-on-connect",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.use-disposable-connection-facade",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.use-disposable-connection-facade",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.use-equals",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.use-equals",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.use-lock",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.use-lock",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.use-statement-facade",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.use-statement-facade",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.validation-interval",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.validation-interval",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.validation-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.validation-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.validation-query-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.validation-query-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.validator-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.apache.tomcat.jdbc.pool.DataSource",
+      "name": "clinicar.datasource.validator-class-name",
+      "type": "java.lang.String"
+    }
+  ]
+}
