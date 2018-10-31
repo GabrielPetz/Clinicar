@@ -7,20 +7,36 @@
     <div th:insert="~{layout/layout :: navbar}"></div>
     <main>
         <div class="row">
-            <form class="col s4 center">
+            <form class="col s4 center" th:action="@{/login}" method="post" >
+                <div class="lightningByHour lightningByHour-warning" role="lightningByHour">
+                    Você já esta logado como [[${#httpServletRequest.remoteUser}]] <span class="nav-text"
+                                                                                         th:inline="text"> com privilégios de
+                                            <span th:text="${role}"></span>
+                                        </span>
+                </div>
+                <div th:if="${param.error}">
+                    <div class="lightningByHour lightningByHour-danger" role="lightningByHour">
+                        Usuário ou senha incorretos.
+                    </div>
+                </div>
+                <div th:if="${param.logout}">
+                    <div class="lightningByHour lightningByHour-secondary" role="lightningByHour">
+                        Você deslogou.
+                    </div>
+                </div>
                 <div class="row">
                     <div class="input-field col s6">
-                        <input id="email" type="text" class="validate">
-                        <label for="email">Email</label>
+                        <input id="username" name="username" type="text" class="validate">
+                        <label for="username">Email</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="password" type="password" class="validate">
+                        <input id="password" type="password" name="password" class="validate">
                         <label for="password">Senha
                         </label>
                     </div>
                 </div>
                 <div>
-                    <button  class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
