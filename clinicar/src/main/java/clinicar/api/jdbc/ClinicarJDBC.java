@@ -37,6 +37,8 @@ public class ClinicarJDBC implements IClinicar {
     @Override
     public Integer getMaxId(){
         String sql = "";
+
+        return null;
     }
 
     @Override
