@@ -2,11 +2,9 @@ package clinicar.api.controller;
 
 import clinicar.api.interfaces.IClinicar;
 import clinicar.api.model.User;
+import clinicar.web.form.FormUser;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -14,6 +12,7 @@ import java.util.List;
  * @author Petz
  * @since 26/10/18
  */
+
 @RestController
 @RequestMapping("/clinicar")
 public class UserApiController {
@@ -36,5 +35,8 @@ public class UserApiController {
         return iClinicar.getUsers();
     }
 
+    @RequestMapping(value = "/user/register", method = {RequestMethod.POST})
+    public void registerUser(@ModelAttribute("form") FormUser form){
 
+    }
 }

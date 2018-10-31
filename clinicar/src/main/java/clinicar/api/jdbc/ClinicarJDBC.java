@@ -3,6 +3,7 @@ package clinicar.api.jdbc;
 import clinicar.api.interfaces.IClinicar;
 import clinicar.api.model.User;
 import clinicar.api.rowmapper.UserRowMapper;
+import clinicar.web.form.FormUser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,9 +37,9 @@ public class ClinicarJDBC implements IClinicar {
 
     @Override
     public Integer getMaxId(){
-        String sql = "";
+        String sql = "select max(usrid) + 1 from users;";
 
-        return null;
+        return clinicarJdbcTemplate.queryForObject(sql, Integer.class);
     }
 
     @Override
@@ -50,17 +51,19 @@ public class ClinicarJDBC implements IClinicar {
 
     @Override
     public List<User> getUserByEmail(String email) {
-        String sql = "select * from users, role where rolid = usrrole and usremail = ?";
+        String sql = "select * from users, role where rolid = usrrole and usremail ilike ?";
 
         return clinicarJdbcTemplate.query(sql, new Object[]{email}, userRowMapper);
     }
 
     @Override
-    public Integer insertUser(User user) {
+    public Integer insertUser(FormUser user) {
 
-        String sql = "insert into users()";
+        Integer maxId = getMaxId();
 
-        return clinicarJdbcTemplate.update(sql);
+        String sql = "insert into users(usrid, usrname, usremail, usrpassword, usrrole, usractive) values(?,?,?,?,?, true)";
+
+        return clinicarJdbcTemplate.update(sql, new Object[]{maxId, user.getName(), user.getEmail(), user.getPassword(), user.getRole()});
     }
 
 }

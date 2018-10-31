@@ -1,6 +1,7 @@
 package clinicar.api.interfaces;
 
 import clinicar.api.model.User;
+import clinicar.web.form.FormUser;
 
 import java.util.List;
 
@@ -16,7 +17,7 @@ public interface IClinicar {
 
     List<User> getUserByEmail(String email);
 
-    Integer insertUser(User user);
+    Integer insertUser(FormUser user);
 
     Integer getMaxId();
 
