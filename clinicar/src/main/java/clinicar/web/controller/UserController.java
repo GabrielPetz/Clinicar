@@ -4,8 +4,6 @@ import clinicar.api.interfaces.IClinicar;
 import clinicar.api.model.User;
 import clinicar.web.form.FormUser;
 import io.swagger.annotations.Api;
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
