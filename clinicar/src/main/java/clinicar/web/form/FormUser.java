@@ -43,8 +43,8 @@ public class FormUser {
         return role;
     }
 
-    public void setRole(Integer role) {
-        this.role = role;
+    public void setRole(String role) {
+        this.role = Integer.parseInt(role);
     }
 
     @Override

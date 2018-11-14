@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:insert="~{layout/layout :: header}"></div>
+</head>
+<body>
+    <div th:insert="~{layout/layout :: navbar}"></div>
+    <main>
+        <div class="container">
+            <div class="form-group form-row">
+                <div class="input-field col s6">
+                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input placeholder="Placeholder" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div th:insert="~{layout/layout :: footergeneric}"></div>
+    <div th:insert="~{layout/layout :: scripts}"></div>
+</body>
+</html>

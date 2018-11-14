@@ -2,11 +2,20 @@ package clinicar.web.data;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
+import org.apache.http.NameValuePair;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.List;
 
 /**
  * @author Petz
@@ -60,7 +69,6 @@ public class DataLoader {
         }
         return null;
     }
-
 
 
 }

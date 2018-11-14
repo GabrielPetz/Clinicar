@@ -36,7 +36,7 @@ public class ClinicarJDBC implements IClinicar {
     }
 
     @Override
-    public Integer getMaxId(){
+    public Integer getMaxId() {
         String sql = "select max(usrid) + 1 from users;";
 
         return clinicarJdbcTemplate.queryForObject(sql, Integer.class);
@@ -59,11 +59,24 @@ public class ClinicarJDBC implements IClinicar {
     @Override
     public Integer insertUser(FormUser user) {
 
+
         Integer maxId = getMaxId();
+        if(maxId == null) maxId = 0;
 
-        String sql = "insert into users(usrid, usrname, usremail, usrpassword, usrrole, usractive) values(?,?,?,?,?, true)";
+        String hash = clinicarJdbcTemplate.queryForObject("select crypt(?,gen_salt('bf'));", new Object[]{user.getPassword()}, String.class);
+        System.out.println(hash);
 
-        return clinicarJdbcTemplate.update(sql, new Object[]{maxId, user.getName(), user.getEmail(), user.getPassword(), user.getRole()});
+        if(getUserByEmail(user.getEmail()).size() > 0){
+
+        } else {
+            String sql = "insert into users(usrid, usrname, usremail, usrpassword, usrrole, usractive) values(?,?,?,?,?, true)";
+            return clinicarJdbcTemplate.update(sql, new Object[]{maxId, user.getName(), user.getEmail(), hash, user.getRole()});
+        }
+
+
+
+        return null;
+
     }
 
 }
